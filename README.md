@@ -56,12 +56,10 @@ Target Variable:
 
 Accuracy Score:
 
-And make it like this instead:
-
-```md id="0c5i0g"
-## Model Performance
-
-Accuracy Score:
-
 ```python
 0.8239
+```
+
+## Result Visualization
+
+![Confusion Matrix](https://github.com/yasirsheikh07/customer-churn-prediction/blob/main/screenshots/confusion_matrix.png?raw=true)
