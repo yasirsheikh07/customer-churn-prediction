@@ -57,6 +57,8 @@ Target Variable:
 Accuracy Score:
 ```python
 0.8239
+
+![Confusion Matrix](https://github.com/yasirsheikh07/customer-churn-prediction/blob/main/screenshots/confusion_matrix.png?raw=true)
 ---
 Mohammad Yasir Sheikh
 
