@@ -57,3 +57,78 @@ Target Variable:
 Accuracy Score:
 ```python
 0.8239
+---
+
+## Confusion Matrix
+
+![Confusion Matrix](screenshots/confusion_matrix.png)
+
+---
+
+## Project Structure
+
+```bash
+customer-churn-prediction/
+│
+├── dataset/
+│   └── churn.csv
+│
+├── notebook/
+│   └── churn_prediction.ipynb
+│
+├── model/
+│   └── customer_churn_model.pkl
+│
+├── screenshots/
+│   └── confusion_matrix.png
+│
+├── requirements.txt
+│
+└── README.md
+```
+
+---
+
+## How to Run the Project
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/yasirsheikh07/customer-churn-prediction.git
+```
+
+2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Open Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+4. Run:
+```bash
+notebook/churn_prediction.ipynb
+```
+
+---
+
+## Future Improvements
+
+- Random Forest Classifier
+- XGBoost Classifier
+- Hyperparameter Tuning
+- Streamlit Deployment
+- Interactive Dashboard
+
+---
+
+## Author
+
+Mohammad Yasir Sheikh
+
+GitHub:
+https://github.com/yasirsheikh07
